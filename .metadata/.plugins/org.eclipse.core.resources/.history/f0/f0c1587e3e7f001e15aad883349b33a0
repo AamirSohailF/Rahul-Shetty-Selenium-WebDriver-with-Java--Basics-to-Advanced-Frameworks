@@ -1,0 +1,21 @@
+package pjav;
+
+
+public class PallindromeOrNot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String str = "Kamas";
+		String reverse = "";
+		
+		for (int i = str.length()-1; i >= 0; i++) {
+			reverse = str.charAt(i) + reverse;
+		}
+		
+		System.out.println(reverse);
+		
+	}
+
+}

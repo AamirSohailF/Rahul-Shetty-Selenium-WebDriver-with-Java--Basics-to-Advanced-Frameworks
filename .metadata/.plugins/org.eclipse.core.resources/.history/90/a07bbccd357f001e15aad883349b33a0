@@ -1,0 +1,24 @@
+package pjav;
+
+public class PrimeNumber {
+
+	
+	public static void main(String[] args) {
+		
+		int num = 15;
+		
+		for (int i = 2; i < 15; i++) {
+			if (15%i==0) {
+//				System.out.println(num);
+				System.out.println(i);
+//				break;
+			}
+			else {
+				System.out.println(num + " is a Prime number");
+				}
+		}
+		
+	}
+	
+	
+}
