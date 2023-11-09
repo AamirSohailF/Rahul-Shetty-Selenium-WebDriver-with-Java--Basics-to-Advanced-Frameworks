@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Scope of Parameterization Example 1 - Declaring at suite level]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="www.google.com"/>
+  <parameter name="Password" value="MyPassword"/>
+  <test thread-count="5" name="Batch1(failed)">
+    <classes>
+      <class name="TestNG.test2">
+        <methods>
+          <include name="TestD"/>
+        </methods>
+      </class> <!-- TestNG.test2 -->
+      <class name="TestNG.test1">
+        <methods>
+          <include name="TestA"/>
+          <include name="amethod"/>
+          <include name="bsuite"/>
+          <include name="asuite"/>
+          <include name="TestB"/>
+          <include name="bmethod"/>
+        </methods>
+      </class> <!-- TestNG.test1 -->
+    </classes>
+  </test> <!-- Batch1(failed) -->
+</suite> <!-- Failed suite [Scope of Parameterization Example 1 - Declaring at suite level] -->

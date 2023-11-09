@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;myJava.ArrayList&apos; to &apos;ArraySplit&apos;&#x0D;&#x0A;- Original project: &apos;myJava&apos;&#x0D;&#x0A;- Original element: &apos;myJava.ArrayList&apos;&#x0D;&#x0A;- Renamed element: &apos;myJava.ArraySplit&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayList&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;myJava{ArrayList.java[ArrayList" matchStrategy="1" name="ArraySplit" qualified="false" references="true" similarDeclarations="false" stamp="1698323653208" textual="false" version="1.0"/>
+</session>

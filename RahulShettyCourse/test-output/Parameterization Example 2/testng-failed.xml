@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterization Example 2]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="www.google.com"/>
+  <parameter name="Password" value="MyPassword"/>
+  <test thread-count="5" name="Parameterization Example 2(failed)">
+    <classes>
+      <class name="TestNG.test2">
+        <methods>
+          <include name="TestD"/>
+        </methods>
+      </class> <!-- TestNG.test2 -->
+    </classes>
+  </test> <!-- Parameterization Example 2(failed) -->
+</suite> <!-- Failed suite [Parameterization Example 2] -->

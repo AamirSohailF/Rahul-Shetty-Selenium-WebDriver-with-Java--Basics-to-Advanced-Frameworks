@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Seperate Tests/Folders]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Batch1(failed)">
+    <classes>
+      <class name="TestNG.test2">
+        <methods>
+          <include name="TestC"/>
+        </methods>
+      </class> <!-- TestNG.test2 -->
+    </classes>
+  </test> <!-- Batch1(failed) -->
+  <test thread-count="5" name="Batch2(failed)">
+    <classes>
+      <class name="TestNG.test3">
+        <methods>
+          <include name="WebHomeLoan"/>
+          <include name="bTest"/>
+          <include name="APIHomeLoan"/>
+          <include name="aTest"/>
+        </methods>
+      </class> <!-- TestNG.test3 -->
+    </classes>
+  </test> <!-- Batch2(failed) -->
+</suite> <!-- Failed suite [Seperate Tests/Folders] -->
