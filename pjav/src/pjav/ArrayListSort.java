@@ -17,7 +17,11 @@ public class ArrayListSort {
 		cars.add("aston martin");
 		
 		Collections.sort(cars);
-		System.out.println(cars.get(4));
+//		System.out.println(cars.get(4));
+		
+		for (int i = 0; i < cars.size(); i++) {
+			System.out.println(cars.get(i));
+		}
 	}
 
 }
