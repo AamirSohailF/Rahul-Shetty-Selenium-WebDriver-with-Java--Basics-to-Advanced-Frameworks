@@ -1,0 +1,32 @@
+package pjav;
+
+public class ConstructorsJava {
+	
+	public ConstructorsJava() {
+		System.out.println("Default constructor");
+	}
+	
+	public ConstructorsJava(String str) {
+		System.out.println(str);
+	}
+
+	public ConstructorsJava(int i) {
+		System.out.println(i);
+	}
+	
+	public ConstructorsJava(int i, int j) {
+		System.out.println(i + j);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ConstructorsJava cj = new ConstructorsJava();
+		ConstructorsJava cj1 = new ConstructorsJava("String constructor");
+		ConstructorsJava cj2 = new ConstructorsJava(5);
+		ConstructorsJava cj3 = new ConstructorsJava(50, 20);
+		
+		
+	}
+
+}

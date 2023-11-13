@@ -1,0 +1,19 @@
+package pjav;
+
+public class ConstructorsJava {
+	
+	public ConstructorsJava() {
+		System.out.println("Default constructor");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ConstructorsJava cj = new ConstructorsJava();
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package pjav;
+
+public class ChildClassASuperKeyword extends ParentClassASuperKeyword{
+	
+	
+	int a = 20;
+	
+	public void getData() {
+		System.out.println("This method is from Child class A");
+	}
+	
+	public void myMethod() {
+		System.out.println(a);
+		System.out.println(super.a);
+		getData();
+		super.getData();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ChildClassASuperKeyword c = new ChildClassASuperKeyword();
+		c.myMethod();
+		
+	}
+
+}

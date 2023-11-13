@@ -1,0 +1,25 @@
+package pjav;
+
+public class StaticKeyword {
+
+	
+	String name;
+	String address;
+	String city;
+	
+	StaticKeyword(String name, String address, String city){
+		this.name = name;
+		this.address = address;
+		this.city = city;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		StaticKeyword sk = new StaticKeyword("Ron", "Sky Road", "Manchester");
+		StaticKeyword sk1 = new StaticKeyword("James", "MainLand 72", "Manchester");
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package pjav;
+
+public class ChildClassA extends ParentClassA{
+	
+	
+	int a = 20;
+	
+	public void getData() {
+		System.out.println("This method is from Child class A");
+	}
+	
+	public void myMethod() {
+		System.out.println(a);
+		System.out.println(super.a);
+		getData();
+		super.getData();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ChildClassA c = new ChildClassA();
+		c.myMethod();
+		
+	}
+
+}
