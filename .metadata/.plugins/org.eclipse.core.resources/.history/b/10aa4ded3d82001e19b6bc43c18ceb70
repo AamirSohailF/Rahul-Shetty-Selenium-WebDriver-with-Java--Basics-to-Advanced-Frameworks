@@ -1,0 +1,13 @@
+package pjav;
+
+public class FindMinimumNumberInArrayAndThenMaximumNumberInThatColumn {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		// Find the minimum number in an array and then find the maximum number in the column of that minimum number
+
+	}
+
+}
