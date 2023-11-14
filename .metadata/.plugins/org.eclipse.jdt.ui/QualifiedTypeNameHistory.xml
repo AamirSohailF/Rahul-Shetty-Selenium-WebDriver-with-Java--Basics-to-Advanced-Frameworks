@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By.ByClassName"/>
-    <fullyQualifiedTypeName name="dev.failsafe.internal.util.Assert"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
     <fullyQualifiedTypeName name="selenium.Actions"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Action"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="pjav.ConstructorsJava"/>
+    <fullyQualifiedTypeName name="pjav.ChildClassA"/>
+    <fullyQualifiedTypeName name="pjav.ParentClassA"/>
+    <fullyQualifiedTypeName name="pjav.thisKeyword"/>
+    <fullyQualifiedTypeName name="pjav.StaticKeyword"/>
 </qualifiedTypeNameHistroy>

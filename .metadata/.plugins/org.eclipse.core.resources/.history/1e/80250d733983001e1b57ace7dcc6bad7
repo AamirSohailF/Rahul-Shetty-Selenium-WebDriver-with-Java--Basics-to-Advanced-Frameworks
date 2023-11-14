@@ -1,0 +1,39 @@
+package pjav;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+public class HashMapJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		HashMap<Integer, String> hm = new HashMap<Integer, String>();
+		hm.put(0, "United States");
+		hm.put(1, "Canada");
+		hm.put(2, "France");
+		hm.put(21, "England");
+		hm.put(3, "Spain");
+//		System.out.println(hm.get(21));
+//		System.out.println(hm.get(3));
+		hm.put(4, "England");
+//		hm.remove(3);
+//		System.out.println(hm.get(4));
+//		System.out.println(hm.get(3));
+		hm.put(2, "Germany");
+		
+		Set sn = hm.entrySet();
+		Iterator it = sn.iterator();
+		
+		while (it.hasNext()) {
+			Map.Entry mp = (Map.Entry)it.next();
+			System.out.println(mp.getKey());
+			System.out.println(mp.getValue());
+		}
+		
+	}
+
+}

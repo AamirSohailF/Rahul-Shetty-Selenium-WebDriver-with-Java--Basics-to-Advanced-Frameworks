@@ -1,0 +1,17 @@
+package pjav;
+
+import java.util.HashMap;
+
+public class HashSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		HashMap<Integer, String> hm = new HashMap<Integer, String>();
+		
+		
+		
+	}
+
+}
